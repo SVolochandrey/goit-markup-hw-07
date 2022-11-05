@@ -842,6 +842,9 @@ ul {
 .portfolio__card {
   display: block;
   text-decoration: none;
+  transition-property: box-shadow;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
 }
 
 .portfolio__image {
